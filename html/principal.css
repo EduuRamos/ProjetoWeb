@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+
+header > h1 {
+    margin: 9px;
+    padding: 20px;
+}
+
+header > img {
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    right: 65%;
+    top: 4.0%
+}
+
+#link1{
+    position: absolute;
+    right: 15%;
+    top: 5%;
+}
+
+#link2{
+    position: absolute;
+    right:5%;
+    top: 5%;
+}
+
+#link3{
+    position: absolute;
+    right: 25%;
+    top: 5%;
+}
+
+main > h2{
+    margin: 25px;
+    padding: 5px;
+}
+
+main > p{
+    margin: 25px;
+    padding: 5px;
+}
+
+footer > p{
+    margin: 25px;
+    padding: 5px;
+    display: inline;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline red;
+}
