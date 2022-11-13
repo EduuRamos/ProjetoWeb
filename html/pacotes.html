@@ -3,17 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/pacotes.css">
 </head>
 <body>
-    <div class="carousel">
-        <div><img src="../imagens/_.jpeg" alt="js" /></div>
-        <div><img src="../imagens/cachoeira.jpeg" alt="java" /></div>
-        <div><img src="../imagens/cachoeira2.jpeg" alt="python"/></div>
-        <div><img src="../imagens/poco.jpeg" alt="kotlin" /></div>
-      </div>
-      
-    <script src="a.js"></script>
+    <div class="content">
+        <div class="slice">
+            <input class="input" type="radio" name="slide" id="slide1" checked>
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+            <input class="input" type="radio" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="../imagens/Passeio-cachoeira-do-buracao.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../imagens/poco.jpeg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../imagens/poco.jpeg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../imagens/_.jpeg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../imagens/PACOTE-DIAS-CHAPADA-DIAMANTINA.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="navigation">
+
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+    </div>
+</body>
 </html>
