@@ -5,7 +5,9 @@
     margin: 0px;
     text-align: justify;
     text-decoration: none;
+    font-family: 'Lora', serif;
 }
+
 
 header > h1 {
     margin: 9px;
@@ -18,6 +20,11 @@ header > nav > p{
     margin: 15px 4px 18px 18px;
     padding: 10px 0px 16px 11px;
 }
+
+body{
+    background-color: #04b2d969;
+}
+
 
 main > h2{
     margin: 25px;

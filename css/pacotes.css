@@ -4,13 +4,34 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #04b2d969;
+    font-family: 'Lora', serif;
+}
+
+header > h1 {
+    margin: 9px;
+    padding: 20px;
+    text-align: center;
+}
+
+header > nav > p{
+    display: inline-block;
+    margin: 15px 4px 18px 18px;
+    padding: 10px 0px 16px 11px;
+}
+
+
+.content .navigation{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     height: 100vh;
     width: 100vh;
 }
 
 .content{
-    height: 520px;
-    width: 900px;
+    height: 410px;
+    width: 620px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -27,8 +48,8 @@ body{
 
 .navigation{
     position: absolute;
-    bottom: 8%;
-    left: 48%;
+    bottom: 15%;
+    left: 44%;
     display: flex;
 }
 
@@ -42,7 +63,7 @@ body{
     transform: .5s ease;
 }
 
-3.bar:hover{
+.bar:hover{
     background-color: black;
 }
 
@@ -50,15 +71,15 @@ input{
     display: none;
 }
 
-.slides{
+.slice{
     display: flex;
     width: 500%;
     height: 100%;
 }
 
 .slide{
-    /* width: 80%;     */
-    height: 20%;
+    width: 20%;    
+    /* height: 0%; */
 }
 
 #slide1:checked ~.s1{
@@ -67,4 +88,25 @@ input{
 
 #slide2:checked ~.s1{
     margin-left: -20%;
+}
+
+#slide3:checked ~.s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~.s1{
+    margin-left: -60%;
+}
+
+#slide5:checked ~.s1{
+    margin-left: -80%;
+}
+
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline red;
 }

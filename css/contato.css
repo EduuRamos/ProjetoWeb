@@ -1,9 +1,19 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   font-family: 'Lora', serif;
+}
+body{
+    background-color: #04b2d969;
+}
+
+section{
+    background-color: rgb(49, 148, 178);
 }
 
 header > h1 {
@@ -53,7 +63,7 @@ section{
     flex-direction: column;
     padding: 10px 45px;
     width: 500px;
-    margin-top: -10px;
+    margin-top: 27px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
@@ -74,11 +84,11 @@ footer > p {
     text-align: center;
 }
 
-footer > nav > img{
+footer > nav > a > img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 4%;
+    max-width: 4%;
 }
 
 a{
@@ -88,3 +98,62 @@ a{
 a:hover{
     text-decoration: underline red;
 }
+
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transform: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transform: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: #f5f5f5;
+    color: black;
+    border: 16px;
+}
+
+/* main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #101026;
+    flex-direction: column;
+
+} */
