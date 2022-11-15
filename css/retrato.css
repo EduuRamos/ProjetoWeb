@@ -1,0 +1,15 @@
+/* @charset "UTF-8";
+
+*{
+    background-color: yellow;
+}
+
+.content{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.navigation{
+    left: 40%;
+    bottom: 22%;
+} */
