@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -11,6 +10,9 @@
     font-family: 'Lora', serif;
 }
 
+body {
+    background-color: #00e0e830;
+}
 
 header > h1 {
     margin: 9px;
@@ -21,18 +23,13 @@ header > h1 {
 
 header > nav > p{
     display: inline-block;
-    margin: 15px 4px 18px 18px;
-    padding: 10px 0px 16px 11px;
+    margin: 15px 4px 0px 18px;
+    padding: 10px 0px 0px 11px;
 }
-
-body{
-    background-color: #04b2d969;
-}
-
 
 main > h2{
-    margin: 25px;
-    padding: 5px;
+    margin: 5px 25px 25px 25px;
+    padding: 5px 5px 5px 5px;
 }
 
 main > p{
@@ -48,8 +45,28 @@ footer > p {
 
 a{
     color: black;
+    text-decoration: none;
 }
 
 a:hover{
-    text-decoration: underline red;
+    text-decoration:  #09393b30;
+    background-color: #0e2b2c30;
 }
+
+a:active{
+    color: #04506a;
+}
+
+
+footer > h3{
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* @media screen and (min-width: 1081px) and (max-width: 1750px) {
+    footer > h3{ 
+        position: absolute;
+        right: 45%;
+        bottom: 5%;
+    }
+} */
